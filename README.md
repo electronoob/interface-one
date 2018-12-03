@@ -1,4 +1,4 @@
 # interface-on
 
-![screenshot](https:////github.com/electronoob/interface-one/raw/master/screenshot.png "Screenshot")
+![screenshot](https://raw.githubusercontent.com/electronoob/interface-one/master/screenshot.png "Screenshot")
 
