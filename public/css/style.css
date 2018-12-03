@@ -1,0 +1,40 @@
+body {
+    background-color: #acb4c1;
+    user-select: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  div.content {
+    background-color: #c0c0c0;
+  }
+  div.window {
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3);
+  }
+  canvas#lcd {
+      width: calc(160*2px);
+      height: calc(144*2px);
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: optimize-contrast;
+      image-rendering: pixelated;
+      background-color: #004400;
+      border: 1px solid #000;
+      margin:5px;
+  }
+  i.topbar {
+    font-size: 1em;
+  }
+  div.topbar {
+      border-top: 1px solid #aaa;
+      border-bottom: 2px solid #aaa;
+      height: 1em;
+      padding: 4px;
+      background-color: #fff;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+      z-index: 9999;
+      position: fixed;
+      user-select: none;
+      top: 0px;
+      left:0px;
+  }
